@@ -44,7 +44,7 @@ html {
   background: none;
   border: none;
   color: white;
-  text-decoration: none;
+  text-decoration: none !important;
   font-weight: 400;
   cursor: pointer;
   font-size: 14px !important;
@@ -52,7 +52,7 @@ html {
 }
 
 .navbar.scrolled .nav-link {
-  color: #333;
+  color: white;
 }
 
 
@@ -225,18 +225,35 @@ html {
   transform: translateY(-5px);
 }
 
-.column-icon {
-  width: 200px !important;
-  height: 80px !important;
-  background-color: #ffffff !important;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto 25px;
-  color: white;
-  font-size: 4rem !important;
-  margin-bottom: 20px !important;
+.pic3 {
+  width: 75px;
+  height: 60px;
+  margin-bottom: 35px;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  image-rendering: high-quality;
+  filter: contrast(1.1) brightness(1.05);
+}
+
+.pic4 {
+  width: 75px;
+  height: 65px;
+  margin-bottom: 30px;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  image-rendering: high-quality;
+  filter: contrast(1.1) brightness(1.05);
+}
+
+.pic5 {
+  width: 80px;
+  height: 60px;
+  margin-bottom: 30px;
+  margin-top: 5px;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  image-rendering: high-quality;
+  filter: contrast(1.1) brightness(1.05);
 }
 
 .column-title {
@@ -546,8 +563,8 @@ html {
 .footer-content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 95px !important;
-  max-width: 1400px !important;
+  gap: 0px !important;
+  max-width: 1300px !important;
   margin: 0 auto;
 }
 
@@ -555,9 +572,10 @@ html {
   color: rgb(97, 42, 134) !important;
   font-weight: bold;
   margin-bottom: 12px !important;
-  text-transform: uppercase;
-  font-size: 16px;
+  text-transform: none !important;
+  font-size: 15px;
   margin-top: 50px;
+  margin-left: 10px;
 }
 
 .footer-column ul {
@@ -568,10 +586,12 @@ html {
   margin-bottom: 10px;
   color: #642c8a !important;
   font-size: 14px !important;
+  margin-left: -20px;
+  line-height: 15px;
 }
 
 .footer-column a, .footer-link {
-  color: #333;
+  color: #642c8a !important;
   text-decoration: none;
   transition: color 0.3s ease;
   background: none;
@@ -588,62 +608,53 @@ html {
 
 /* Facebook Widget */
 .facebook-widget {
-  background-color: white;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  background-color: #e8e4ed !important;;
+  border-radius: 0px;
+  overflow: visible;
+  box-shadow: 0 0px 0px rgba(0,0,0,0.1);
+  margin-top: -20px;
+  margin-left: 60px;
 }
 
-.facebook-header {
-  background-color: #7B3F9F;
-  color: white;
-  padding: 15px;
-  text-align: center;
+.pic1 {
+  width: 248px;
+  height: 150px;
 }
 
-.facebook-logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 5px;
+
+.facebook-widget-overly{
+  position: absolute !important;
+  z-index: 2 !important;
+  margin-top: -30px !important;
 }
 
-.facebook-title {
-  font-size: 1.1rem;
-  font-weight: 500;
-  margin-bottom: 3px;
-}
 
-.facebook-followers {
-  font-size: 0.9rem;
-  opacity: 0.9;
-}
-
-.facebook-content {
-  position: relative;
-  background-color: #f5f5f5;
-  padding: 20px;
-  text-align: center;
-}
-
-.facebook-image {
-  font-size: 2rem;
-  margin-bottom: 15px;
+.pic2 {
+  width: 12px !important;
+  height: 12px;
+  margin-left: -10px;
+  margin-top: -5px !important;
 }
 
 .facebook-follow-btn {
-  background-color: #1877F2;
-  color: white;
+  background-color: white;
+  color: black;
   border: none;
   padding: 8px 16px;
   border-radius: 4px;
-  font-size: 0.9rem;
+  font-size: 0.6rem;
   font-weight: 500;
+  line-height: 1px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-left: 10px !important;
+  margin-top: -60px !important;
+  width: 105px;
+  height: 20px;
 }
 
 .facebook-follow-btn:hover {
-  background-color: #166FE5;
+  background-color: #e8e4ed;
 }
 
 /* Common utility classes */
@@ -651,9 +662,18 @@ html {
   text-align: center;
 }
 
+.content-line3{
+  height: 1px !important;
+  width: 1300px !important;
+  background-color: #642c8a;
+  font-weight: 100;
+  margin-left: 70px;
+  margin-top: 0px !important;
+  margin-bottom: 0px;
+}
 .copyright {
   text-align: center;
-    border-top: 1px solid #642c8a;
+   
     margin-top: 14px !important;
     margin-bottom: 0 !important;
     font-size: 13px !important;

@@ -12,10 +12,18 @@ const ApproachPage = () => {
     <div className="approach-page">
       <NavBar mode="static" />
 
+      <div className="facebook-widget2">
+              <img src="pic8.jpg"  className="pic8" />
+              <div className="facebook-widget2-overly"> 
       <header className="approach-hero">
         <h1 className="approach-title">OUR APPROACH</h1>
         <p className="approach-subtitle">We value a person-centred approach to the design and delivery of our services. Needs are individual, and are continually and thoroughly assessed for the duration of every contract.</p>
+        
+              
       </header>
+      </div>
+      </div>
+      
 
       <section className="section content-light">
         <div className="page-content">
@@ -28,6 +36,7 @@ const ApproachPage = () => {
           <h2 className="section-title">TRAINING</h2>
           <p className="section-text">Our drivers receive training over and above legal requirements. This training may include instruction in defensive driving techniques, sign language courses for all staff involved with students who have speech difficulties, and awareness courses for autism, ADHD, Asperger and epilepsy, where relevant. All training support is determined by a person-centred consideration of a passenger's individual needs.</p>
         </div>
+        
       </section>
 
       <section className="section band">

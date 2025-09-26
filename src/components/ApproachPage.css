@@ -8,16 +8,14 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255,255,255,0.95);
-  backdrop-filter: blur(8px);
-  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+
 }
 
 .navbar.static .nav-link { color: #333; }
 .navbar.static .nav-link.active { text-decoration: underline; }
 
 .approach-hero {
-  height: 70vh;
+  height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,13 +23,32 @@
   padding: 0 24px;
   text-align: center;
   color: #fff;
-  background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><defs><filter id="b"><feGaussianBlur stdDeviation="4"/></filter></defs><rect width="1200" height="800" fill="%23d9e0ff"/><circle cx="250" cy="220" r="140" fill="%23a59ad4" filter="url(%23b)"/><circle cx="900" cy="420" r="200" fill="%2392c1ff" filter="url(%23b)"/><rect x="70" y="550" width="260" height="120" rx="20" fill="%23e3c7ff" filter="url(%23b)"/></svg>');
+  background: transparent;
   background-size: cover;
   background-position: center;
+  margin-top: -420px;
+  margin-left: 300px;
 }
 
-.approach-title { font-size: 4rem; letter-spacing: 2px; font-weight: 800; }
-.approach-subtitle { max-width: 900px; margin-top: 18px; line-height: 1.6; font-size: 1.15rem; }
+.facebook-widget2 img{
+  height: 113vh;
+  width: 1518px;
+  margin-left: -5px;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  image-rendering: high-quality;
+  filter: contrast(0.6) brightness(0.7);
+  
+}
+
+.facebook-widget2-overly{
+  position: absolute !important;
+  z-index: 2 !important;
+  margin-top: -30px !important;
+}
+
+.approach-title { font-size: 4.5rem; letter-spacing: 2px; font-weight: 800; -webkit-tap-highlight-color:rgba(255, 255, 255, 0.895) }
+.approach-subtitle { max-width: 1500px; margin-top: 18px; line-height: 1.6; font-size: 1.15rem; margin-left: -300px; -webkit-tap-highlight-color:rgba(255, 255, 255, 0.895)}
 
 .section { padding: 80px 0; }
 .content-light { background-color: #fff; }

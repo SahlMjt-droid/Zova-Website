@@ -80,7 +80,7 @@ const HomePage = () => {
         <div className="page-content">
           <div className="three-columns">
             <div className="column">
-              <div className="column-icon">💼</div>
+            <img src="pic3.png" alt="Disability Confident Committed" className="pic3" />
               <h2 className="column-title">EXPERIENCE</h2>
               <p className="column-text">
                 The Company has been operating Home to School contracts for many years but since 2003 has specialised in special needs passenger transport. The Directors of the company have used their many years of passenger transport experience to design and set up arguably the best and most effective special needs transport organisation in the country.
@@ -88,7 +88,7 @@ const HomePage = () => {
             </div>
             
             <div className="column">
-              <div className="column-icon">♿</div>
+            <img src="pic4.png" alt="Disability Confident Committed" className="pic4" />
               <h2 className="column-title">SPECIALIST VEHICLES</h2>
               <p className="column-text">
                 The company operates licenced private hire vehicles issued by local licencing authority's and a Public service vehicle operator's licence issued by VOSA. We own and operate a fleet of modern vehicles that are dedicated to school and social care transport. Vehicles are ordered and purchased specifically to the clients requirements. We operate 166 wheelchair accessible vehicles.
@@ -96,7 +96,7 @@ const HomePage = () => {
             </div>
             
             <div className="column">
-              <div className="column-icon">🚗</div>
+            <img src="pic5.png" alt="Disability Confident Committed" className="pic5" />
               <h2 className="column-title">MODERN FLEET</h2>
               <p className="column-text">
                 The average age of the vehicle fleet is less than 3 years. Currently our fleet exceeds 1,693 vehicles, consisting of cars, people carriers and wheelchair accessible vehicles we employ in excess of 1,691 drivers and 1,343 passenger assistants. The majority of our vehicles are to Euro 6 specifications ensuring a low carbon footprint within the community.
@@ -230,7 +230,7 @@ const HomePage = () => {
             </div>
             
             <div className="footer-column">
-              <h3>Site Map</h3>
+              <h3>Site Map              </h3>
               <ul>
                 <li><button onClick={() => scrollToSection('hero')} className="footer-link">24x7 Group</button></li>
                 <li><a href="/charity">Centre Algarve (Our Charity)</a></li>
@@ -241,20 +241,16 @@ const HomePage = () => {
             <div className="footer-column">
               <h3>Follow Us On Facebook</h3>
               <div className="facebook-widget">
-                <div className="facebook-header">
-                  <div className="facebook-logo">24/7</div>
-                  <div className="facebook-title">24x7 Group</div>
-                  <div className="facebook-followers">7.1K followers</div>
-                </div>
-                <div className="facebook-content">
-                  <div className="facebook-image">🚗🚗🚗</div>
-                  <button className="facebook-follow-btn">Follow Page</button>
-                </div>
+              <img src="pic1.png" alt="Disability Confident Committed" className="pic1" />
+              <div className="facebook-widget-overly"> 
+              <button className="facebook-follow-btn"><img src="pic2.png" alt="Disability Confident Committed" className="pic2" />    Follow Page</button>
+              </div>
               </div>
             </div>
           </div>
           
           <div className="copyright">
+          <div className="content-line3"></div>
             Copyright 2021-2022 (c) 24x7 Ltd
           </div>
         </div>
