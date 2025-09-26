@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>24x7 Norfolk</title>
+    <link rel="icon" type="image/svg+xml" sizes="378x378" href="assets/img/24x7.logo.svg">
+    <link rel="icon" type="image/svg+xml" sizes="378x378" href="assets/img/24x7.logo.svg">
+    <link rel="icon" type="image/svg+xml" sizes="378x378" href="assets/img/24x7.logo.svg">
+    <link rel="icon" type="image/svg+xml" sizes="378x378" href="assets/img/24x7.logo.svg">
+    <link rel="icon" type="image/svg+xml" sizes="378x378" href="assets/img/24x7.logo.svg">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="assets/css/Article-Dual-Column.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Features-Boxed-1.css">
+    <link rel="stylesheet" href="assets/css/Features-Boxed.css">
+    <link rel="stylesheet" href="assets/css/Features-Clean.css">
+    <link rel="stylesheet" href="assets/css/Footer-Clean.css">
+    <link rel="stylesheet" href="assets/css/Header-Blue.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean-1.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Phone-1.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
+    <link rel="stylesheet" href="assets/css/Testimonials.css">
+</head>
+
+<body>
+    <header class="header-blue" style="background: url(&quot;https://24x7berkshire.co.uk/wp-content/uploads/personal-assistant-and-happy-child.jpg&quot;) 50% 100% / cover no-repeat, rgba(103,28,121,0.27);">
+        <div class="mainheader" style="min-height: 100vh;">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navigation-clean-search navbar-dark">
+                    <div class="container-fluid"><a class="navbar-brand" href="/">&nbsp;<img src="assets/img/24x7.logo.svg" style="width: auto;height: 100px;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navcol-1">
+                            <ul class="navbar-nav brighter" style="margin-left: auto;">
+                                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                                <li class="nav-item active"><a class="nav-link" href="/approach">Approach</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/job-opportunities">Job Opportunities</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/charity">Charity</a></li>
+                                <li class="nav-item"></li>
+                                <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="container hero" style="text-align: center;">
+                <h1>Our Approach</h1>
+                <p>We value a person-centred approach to the design and delivery of our services. Needs are individual, and are continually and thoroughly assessed for the duration of every contract. <br><br></p>
+            </div>
+        </div>
+    </header>
+    <section class="highlight-phone">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4" style="margin-top: auto;margin-bottom: -100px;">
+                    <div class="d-none d-md-block phone-mockup otherdir"><img class="device" src="https://24x7berkshire.co.uk/wp-content/uploads/24x7-communication.png"></div>
+                </div>
+                <div class="col-md-8">
+                    <div class="intro totheright">
+                        <h3 class="purple">Consistent environment</h3>
+                        <p style="text-align: justify;">Drivers and escorts are allocated a route on a permanent basis, and they meet with students and parents/carers prior to the start of the term. This helps to support the on-going relationship between all stakeholders for the duration of a service contract.</p>
+                    </div>
+                    <div class="intro totheright">
+                        <h3 class="purple">Customer care</h3>
+                        <p style="text-align: justify;">All our staff are aware of the need for first-class customer service, sensitivity, and diplomacy.<br>The safeguarding of children and vulnerable adults and our responsibilities in relation to this remain our highest priorities at all times.</p>
+                    </div>
+                    <div class="intro totheright">
+                        <h3 class="purple">Consistent care</h3>
+                        <p style="text-align: justify;">Sometimes for unavoidable operational reasons, it is necessary to allocate a relief driver to a route.<br>In these cases, we take care to introduce relief drivers and escorts to the passengers in advance of the temporary changes.<br>This is done in the company of the regular escort and on the familiar territory of the school grounds.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="highlight-phone bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="intro">
+                        <h3 class="purple">Communication</h3>
+                        <p style="text-align: justify;">Parents and carers have day-to-day communication with the Company via the driver and escort, and a low-cost telephone number so that parents and carers can contact our management team directly.</p>
+                    </div>
+                    <div class="intro">
+                        <h3 class="purple">Code of practice</h3>
+                        <p style="text-align: justify;">A code of practice for passenger illness in transit forms a part of our safeguarding policy.<br>On occasions, travel arrangements (including passenger numbers and timings) may be subject to change. In such cases, routes are rescheduled, and we will always seek to keep on-vehicle time to a minimum.</p>
+                    </div>
+                    <div class="intro">
+                        <h3 class="purple">Training</h3>
+                        <p style="text-align: justify;">Our drivers receive training over and above legal requirements.<br>This training may include instruction in defensive driving techniques, sign language courses for all staff involved with students who have speech difficulties, and awareness courses for autism, ADHD, Asperger and epilepsy, where relevant.<br>All training support is determined by a person-centred consideration of a passenger’s individual needs.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4" style="margin-top: auto;margin-bottom: -100px;">
+                    <div class="d-none d-md-block phone-mockup"><img class="device" src="https://24x7berkshire.co.uk/wp-content/uploads/24x7-communication.png"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div style="background-color: #e8e4ed;padding: 60px;border-top: 20px solid #642c8a;">
+            <h2 class="text-center purple">Specially trained staff</h2>
+        </div>
+        <div class="container">
+            <p style="margin: 60px 0px 60px 0px;text-align: center;">All staff members are employed on contracted terms by 24×7 – we utilise neither temporary agency nor self-employed staff.<br>Every potential employee is assessed for their suitability and motivational fit for the role, and Enhanced Disclosure and Barring Service (DBS) checks are undertaken for all staff, together with full referencing, before any duties commence.<br><br>All 24×7 drivers hold private hire licences, for which satisfactory Enhanced DBS certification and a DVLA Group 2 Medical are mandatory. Most local authorities also require their licence applicants to undertake a successful driving assessment with an Approved Driving Instructor (ADI)&nbsp;before the licence will be issued.<br><br>All drivers and passenger assistants are provided with tailored, person-centred training that meets the individual needs of their passenger(s).<br><br>They must furthermore be approved by the relevant local council which awards the service contract.</p>
+        </div>
+        <div style="background-color: #e8e4ed;padding: 60px;">
+            <h2 class="text-center purple">The one operator operation</h2>
+        </div>
+        <div class="container">
+            <p class="text-center" style="text-align: justify!important;margin: 60px 0px 60px 0px;">The one operator operation means that we deal with the transport for all special needs students attending a particular school. This approach has significant and widely accepted advantages for service stakeholders in terms of cost savings, ease of communication, and&nbsp;operational effectiveness.</p>
+            <div class="row articles" style="border-top: 1px black solid;padding-top: 2em;">
+                <div class="col" style="text-align: center;padding-bottom: 2em;"><a href="/assets/DCS037754.pdf"><img src="assets/img/dc_badge1.png" style="max-width: 200px;"></a><a href="/assets/24x7cyberessentials.pdf"><img src="assets/img/cyberessentials.png" style="max-width: 200px; max-height:150px;"></a></div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-clean" style="border-top: 1px solid black;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>Our Approach</h3>
+                    <ul>
+                        <li><a href="privacy-policy">Privacy Policy</a></li>
+                        <li><a href="customer-care-policy">Customer Care Policy</a></li>
+                        <li><a href="https://staff.24x7group.co.uk/transport/default.php">CCS Staff Login</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>24x7 Head Office</h3>
+                    <p style="font-size: 14px;">Little Easton Manor<br>Park Road<br>Little Easton<br>CM6 2JN<br><br>call: 01279 661661<br>email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="8de4e3ebe2cdbfb9f5bae1f9e9a3eee2a3f8e6">[email&#160;protected]</a></p>
+                </div>
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>Site Map</h3>
+                    <ul>
+                        <li><a href="https://www.24x7group.co.uk/">24x7 Group</a></li>
+                        <li><a href="https://centrealgarve.org/">Centre Algarve (Our Charity)</a></li>
+                        <li><a href="https://application.24x7group.co.uk/">Job Application</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 item social">
+                    <h3 style="text-align: left;">Follow Us On Facebook</h3><iframe name="ffada587d3739" width="500px" height="1000px" data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.7/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df3e3d372a98213c%26domain%3D24x7berkshire.co.uk%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252F24x7berkshire.co.uk%252Ff32792d49409848%26relation%3Dparent.parent&amp;container_width=248&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2F24x7group%2F&amp;locale=en_GB&amp;sdk=joey&amp;show_facepile=true&amp;show_posts=false&amp;small_header=false&amp;width=500" style="border: none; visibility: visible; width: 248px; height: 130px;" class=""></iframe>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="copyright" style="text-align: center;border-top: 1px solid #642c8a;">Copyright 2021-2022 (c) 24x7 Ltd</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

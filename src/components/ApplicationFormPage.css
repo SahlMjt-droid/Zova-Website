@@ -1,0 +1,45 @@
+.application-page { background: #fff; min-height: 100vh; }
+.af-min-header { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; justify-content: space-between; padding: 10px 20px; background: #fff; border-bottom: 1px solid #eee; }
+.mini-logo-img img { height: 48px; display: block; }
+.mini-tab { color: #7B3F9F; font-weight: 700; }
+.af-hero { padding-top: 120px; padding-bottom: 20px; text-align: center; }
+.af-title { color: #7B3F9F; font-size: 2.4rem; letter-spacing: 2px; font-weight: 800; }
+.af-sub { max-width: 900px; margin: 12px auto 0; color: #333; }
+
+.af-form { margin-top: 24px; }
+.af-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px 30px; }
+.af-field { display: flex; flex-direction: column; gap: 8px; }
+.af-label { color: #7B3F9F; font-weight: 700; }
+.af-input input, .af-input select { width: 100%; border: 1px solid #ddd; border-radius: 8px; padding: 12px 12px; font-size: 1rem; }
+.af-toggle { display: flex; gap: 16px; align-items: center; }
+.af-actions { margin-top: 24px; }
+.af-submit { background: #7B3F9F; color: #fff; border: 0; border-radius: 8px; padding: 12px 22px; font-weight: 700; }
+.af-submit:hover { background: #6A3690; }
+
+@media (max-width: 900px) {
+  .af-grid { grid-template-columns: 1fr; }
+}
+
+/* Stats + journeys */
+.af-stats { padding: 40px 0 0; }
+.af-stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; text-align: center; color: #555; }
+.af-journeys { text-align: center; font-size: 2.2rem; color: #5b2f7a; padding: 40px 0; }
+
+/* About */
+.af-about { padding: 20px 0 60px; }
+.af-about-title { text-align: center; color: #5b2f7a; letter-spacing: 1px; font-weight: 800; margin-bottom: 14px; }
+.af-about-intro { text-align: center; color: #333; max-width: 900px; margin: 0 auto 24px; }
+.af-about-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+.af-about-card { background: #fff; border: 1px solid #eee; border-radius: 12px; padding: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.af-about-icon { width: 60px; height: 60px; border-radius: 50%; background: #efe6f6; color: #7B3F9F; display: flex; align-items: center; justify-content: center; font-size: 26px; margin-bottom: 12px; }
+.af-about-head { color: #7B3F9F; letter-spacing: 1px; }
+
+/* Contact band */
+.af-contact-band { background: #e8e0f0; padding: 30px 0; text-align: center; color: #5b2f7a; }
+
+@media (max-width: 1024px) {
+  .af-stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .af-about-grid { grid-template-columns: 1fr; }
+}
+
+

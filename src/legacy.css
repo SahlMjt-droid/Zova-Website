@@ -1,0 +1,91 @@
+/* Consolidated legacy styles copied from Assests/*.css */
+
+/* Article-Dual-Column.css */
+.article-dual-column{color:#56585b;background-color:#fff;font-family:'Lora',serif;font-size:14px}
+.article-dual-column .intro{font-size:16px;margin:0 auto 30px}
+.article-dual-column .intro h1{font-size:32px;margin-bottom:15px;padding-top:20px;line-height:1.5;color:inherit;margin-top:25px}
+.article-dual-column .intro p{color:#929292;font-size:12px}
+.article-dual-column .intro p .by{font-style:italic}
+.article-dual-column .intro p .date{text-transform:uppercase;padding:4px 0 4px 10px;margin-left:10px;border-left:1px solid #ddd}
+.article-dual-column .intro p a{color:#333;text-transform:uppercase;padding-left:3px}
+.article-dual-column .intro img{margin-top:25px}
+.article-dual-column .text p{margin-bottom:20px;line-height:1.45}
+@media (min-width:768px){.article-dual-column .text p{font-size:16px}}
+.article-dual-column .text h2{margin-top:28px;margin-bottom:20px;line-height:1.45;font-size:16px;font-weight:700;color:#333}
+@media (min-width:768px){.article-dual-column .text h2{font-size:20px}}
+.article-dual-column .text figure{text-align:center;margin-top:30px;margin-bottom:20px}
+.article-dual-column .text figure img{margin-bottom:12px;max-width:100%}
+@media (max-width:767px){.article-dual-column .toc{border:1px solid #d3d3d3;padding:20px 0 15px;margin-bottom:20px;border-width:1px 0}}
+.article-dual-column .toc p{text-transform:uppercase;font-size:12px;font-weight:700}
+.article-dual-column .toc ul{padding-left:20px;font-size:13px;margin-bottom:0}
+.article-dual-column .toc li{padding:2px 0}
+.article-dual-column .toc a{color:inherit}
+.mainheader{background-color:rgba(103,28,121,.14)}
+.navbar-dark .navbar-nav.brighter .nav-link{color:#fff}
+.navbar-dark .nav-link.brighter{color:#fff}
+.row>.item.totheright:first-child>.fa.icon{margin-left:-65px;margin-right:0;float:left}
+.features-clean .item .name.charitypage{color:#642c8a}
+h1.purple,h2.purple,h3.purple,.features-boxed h2.purple,.testimonials-clean h2.purple{color:#642c8a;text-transform:uppercase}
+.contact-clean form .btn-primary.purple{background-color:#642c8a!important}
+.ytvideo{position:absolute;top:50%;left:50%;width:100vw;height:100vh;transform:translate(-50%,-50%)}
+@media (min-aspect-ratio:16/9){.ytvideo{height:56.25vw}}
+@media (max-aspect-ratio:16/9){.ytvideo{width:177.78vh}}
+.features-clean .item .fa.icon.purple,.features-clean .item .fas.icon.purple{color:#642c8a}
+p.purple{color:#642c8a}
+@media (max-width:768px){.header-blue{background-position-y:0}}
+.header-blue.stripeonly{background-position-y:-370px;height:150px}
+
+/* Features-Boxed.css */
+.features-boxed{color:#313437;background-color:#eef4f7}
+.features-boxed p{color:#7d8285}
+.features-boxed h2{font-weight:700;margin-bottom:40px;padding-top:40px;color:inherit}
+@media (max-width:767px){.features-boxed h2{margin-bottom:25px;padding-top:25px;font-size:24px}}
+.features-boxed .intro{font-size:16px;max-width:500px;margin:0 auto}
+.features-boxed .intro p{margin-bottom:0}
+.features-boxed .features{padding:50px 0}
+.features-boxed .item{text-align:center;margin-bottom:30px}
+.features-boxed .item .box{text-align:center;padding:30px;background-color:#fff;height:100%}
+.features-boxed .item .icon{font-size:60px;color:#642c8a;margin-top:20px;margin-bottom:35px}
+.features-boxed .item .name{font-weight:700;font-size:18px;margin-bottom:8px;margin-top:0;color:#642c8a;text-transform:uppercase}
+.features-boxed .item .description{font-size:15px;margin-top:15px;margin-bottom:20px}
+
+/* Features-Clean.css */
+.features-clean{color:#313437;background-color:#fff;padding-bottom:30px}
+@media (max-width:767px){.features-clean{padding-bottom:10px}}
+.features-clean p{color:#7d8285}
+.features-clean h2{font-weight:700;margin-bottom:40px;padding-top:40px;color:inherit}
+@media (max-width:767px){.features-clean h2{margin-bottom:25px;padding-top:25px;font-size:24px}}
+.features-clean .intro{font-size:16px;max-width:500px;margin:0 auto 60px}
+@media (max-width:767px){.features-clean .intro{margin-bottom:40px}}
+.features-clean .item{min-height:100px;padding-left:80px;margin-bottom:40px}
+@media (max-width:767px){.features-clean .item{min-height:0}}
+.features-clean .item .name{font-size:20px;font-weight:700;margin-top:0;margin-bottom:20px;color:inherit}
+.features-clean .item .description{font-size:15px;margin-bottom:0}
+.features-clean .item .icon{font-size:40px;color:#1485ee;float:left;margin-left:-65px}
+
+/* Footer-Clean.css */
+.footer-clean{padding:50px 0;background-color:#e8e4ed;color:#642c8a}
+.footer-clean h3{margin-top:0;margin-bottom:12px;font-weight:700;font-size:16px}
+.footer-clean ul{padding:0;list-style:none;line-height:1.6;font-size:14px;margin-bottom:0}
+.footer-clean ul a{color:inherit;text-decoration:none;opacity:1}
+.footer-clean ul a:hover{opacity:1}
+.footer-clean .item.social{text-align:right}
+@media (max-width:767px){.footer-clean .item{text-align:center;padding-bottom:20px}}
+@media (max-width:768px){.footer-clean .item.social{text-align:center}}
+.footer-clean .item.social>a{font-size:24px;width:40px;height:40px;line-height:40px;display:inline-block;text-align:center;border-radius:50%;border:1px solid #ccc;margin-left:10px;margin-top:22px;color:inherit;opacity:.75}
+.footer-clean .item.social>a:hover{opacity:.9}
+@media (max-width:991px){.footer-clean .item.social>a{margin-top:40px}}
+@media (max-width:767px){.footer-clean .item.social>a{margin-top:10px}}
+.footer-clean .copyright{margin-top:14px;margin-bottom:0;font-size:13px;opacity:.6}
+
+/* Contact-Form-Clean.css (subset used) */
+.contact-clean{background:#f1f7fc;padding:80px 0}
+@media (max-width:767px){.contact-clean{padding:20px 0}}
+.contact-clean form{max-width:480px;width:90%;margin:0 auto;background-color:#fff;padding:40px;border-radius:4px;color:#505e6c;box-shadow:1px 1px 5px rgba(0,0,0,.1)}
+.contact-clean h2{margin-top:5px;font-weight:700;font-size:28px;margin-bottom:36px;color:inherit}
+.contact-clean form .form-control{background:#fff;border-radius:2px;box-shadow:1px 1px 1px rgba(0,0,0,.05);outline:none;color:inherit;padding-left:12px;height:42px}
+.contact-clean form textarea.form-control{min-height:100px;max-height:260px;padding-top:10px;resize:vertical}
+.contact-clean form .btn{padding:16px 32px;border:none;background:none;box-shadow:none;text-shadow:none;opacity:.9;text-transform:uppercase;font-weight:700;font-size:13px;letter-spacing:.4px;line-height:1;outline:none}
+.contact-clean form .btn-primary{background-color:#055ada!important;margin-top:15px;color:#fff}
+
+
