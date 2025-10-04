@@ -6,64 +6,105 @@
 
 /* Hero */
 .charity-hero {
-  height: 80vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   color: #fff;
-  background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21?q=80&w=1600&auto=format&fit=crop');
+  background: transparent;
   background-size: cover; background-position: center;
+  margin-top: -600px;
 }
-.charity-hero-inner { padding: 0 24px; }
-.charity-hero-title { font-size: 4.2rem; letter-spacing: 2px; font-weight: 800; margin-top: 12px; }
-.charity-hero-sub { max-width: 900px; margin: 14px auto 0; line-height: 1.6; font-size: 1.15rem; }
-.hero-logo { width: 80px; height: 80px; background: #7B3F9F; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-weight: 800; }
-.hero-logo .plus { font-size: 16px; margin: 0 2px; }
+
+.charity-widget3 img{
+  height: 135vh;
+  width: 1518px;
+  margin-left: -5px;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  image-rendering: high-quality;
+  filter: contrast(0.8) brightness(0.9);
+  margin-top: -170px;
+  
+}
+.charity-widget3-overly{
+  position: absolute !important;
+  z-index: 2 !important;
+  margin-top: -10px !important;
+}
+.charity-hero-title { font-size: 4.7rem; letter-spacing: 2px; font-weight: 750; margin-top: -140px; margin-left: 430px; -webkit-tap-highlight-color:rgb(255, 255, 255); }
+.charity-hero-sub { max-width: 700px; margin-top: 40px; line-height: 1.6; font-size: 1.17rem; font-weight: 400; margin-left:  -630px !important; -webkit-tap-highlight-color:rgb(255, 255, 255);   }
+
 
 /* Intro */
+.section{padding: 110px 0 !important;}
+.content-light2{padding: 90px 0;}
 .charity-intro { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 40px; align-items: start; }
-.intro-heading { color: #7B3F9F; font-weight: 800; margin-bottom: 16px; font-size: 1.4rem; }
-.charity-intro p { color: #333; line-height: 1.8; margin-bottom: 12px; }
+.intro-heading { color: #7B3F9F; font-weight: 400; font-family: Georgia, 'Times New Roman', Times, serif; margin-bottom: 16px; font-size: 1.3rem; font-style: italic; margin-left: 90px;}
+.charity-intro p { color: #7d8285; line-height: 1.7; letter-spacing: normal; margin-bottom: 12px; margin-left: 90px; max-width: 870px; }
 .intro-images { display: flex; flex-direction: column; gap: 20px; }
-.intro-images .img { border-radius: 14px; height: 180px; background-size: cover; background-position: center; box-shadow: 0 6px 16px rgba(0,0,0,0.1); }
-.intro-images .img-1 { background-image: url('https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop'); }
-.intro-images .img-2 { background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200&auto=format&fit=crop'); }
+.piccent{margin-top: -110px; margin-left: 240px; margin-bottom: 50px;}
+.intro-images  { border-radius: 10px; width: 410px; height: 50px; background-size: cover; background-position: center; box-shadow: 0 6px 16px rgba(0,0,0,0.1); margin-top: 90px; margin-bottom: 50px; margin-left: -260px;}
+.content-linech {
+  height: 0.5px !important;
+  width: 1450px;
+  background-color: #ccc;
+  margin-bottom: 0px !important;
+  font-weight: 700 !important;
+  margin-top: 130px;
+  margin-left: 30px;
+  color: #ccc;
+}
 
-/* Awards */
-.awards-strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-.awards-strip .award { height: 180px; border-radius: 12px; background: linear-gradient(135deg, #7b3f9f22, #7b3f9f11); border: 2px dashed #7B3F9F; }
+
+
 
 /* Facilities */
+.band-titlef{margin-top: -120px; font-size: 35px; font-weight: 700; max-width: 500px; text-align: center; margin-left: 500px; color: #642c8a;}
 .facilities-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; margin-top: 36px; }
-.charity-card { background: #fff; border-radius: 12px; padding: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); border: 1px solid #eee; }
-.charity-card-icon { width: 56px; height: 56px; border-radius: 50%; background: #7B3F9F; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 26px; margin-bottom: 14px; }
-.charity-card-title { color: #7B3F9F; font-weight: 800; margin-bottom: 10px; text-transform: uppercase; font-size: 1.05rem; }
-.charity-card-text { color: #333; line-height: 1.7; }
+.charity-card { background: #fff;  padding: 24px; margin-left: 40px; }
+.fi1{margin-top: -80px; width: 38px; height: 48px; margin-left: -40px;}
+.fi2{margin-top: -80px; width: 44px; height: 44px; margin-left: -40px;}
+.fi3{margin-top: -80px; width: 38px; height: 38px; margin-left: -40px;}
+.fi4{margin-top: -80px; width: 38px; height: 48px; margin-left: -40px;}
+.fi5{margin-top: -80px; width: 38px; height: 48px; margin-left: -40px;}
+.fi6{margin-top: -80px; width: 38px; height: 38px; margin-left: -40px;}
+.charity-card-title { color: #642c8a; font-weight: 700; margin-bottom: 10px; text-transform: uppercase; font-size: 1.2rem; margin-left: 25px;}
+.charity-card-text { color: #7d8285; line-height: 1.5;  margin-left: 10px;}
 
-/* Reuse cert styles from ApproachPage */
-.section { padding: 80px 0; }
-.content-light { background: #fff; }
-.band { background: #eee2f6; }
-.band-title { text-align: center; color: #5b2f7a; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 24px; }
-.band-title.purple { color: #7B3F9F; }
-.cert-row { display: flex; justify-content: center; gap: 36px; margin-top: 12px; }
-.cert-badge { display: flex; align-items: center; gap: 16px; padding: 16px 20px; background: #fff; border: 2px solid #7B3F9F; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.06); }
-.cert-badge.cyber { border-color: #4A90E2; background: #F0F8FF; }
-.cert-icon { width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: #7B3F9F; color: #fff; font-size: 24px; }
-.cert-badge.cyber .cert-icon { background: #4A90E2; }
-.cert-lines .cert-text { font-weight: 700; text-transform: uppercase; color: #333; font-size: 1.05rem; }
-.cert-lines .cert-sub { color: #666; text-decoration: underline; font-size: 0.9rem; }
+.content-linech2 {
+  height: 0.5px !important;
+  width: 1450px;
+  background-color: #ccc;
+  margin-bottom: 0px !important;
+  font-weight: 700 !important;
+  margin-top: -40px;
+  margin-left: 30px;
+  color: #ccc;
+}
+.content-linech3 {
+  height: 0.5px !important;
+  width: 1450px;
+  background-color: #ccc;
+  margin-bottom: 0px !important;
+  font-weight: 700 !important;
+  margin-top: 50px;
+  margin-left: 30px;
+  color: #ccc;
+}
 
-/* Footer reuse from Approach */
-.approach-footer { background: #E8E0F0; padding-top: 50px; }
-.footer-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; }
-.approach-footer h3 { color: #7B3F9F; text-transform: uppercase; margin-bottom: 16px; }
-.approach-footer ul { list-style: none; padding: 0; }
-.approach-footer li { margin-bottom: 10px; color: #333; }
-.approach-footer a { color: #333; text-decoration: none; }
-.approach-footer a:hover { color: #7B3F9F; }
-.approach-footer .copyright { text-align: center; padding: 24px 0 40px; color: #666; }
+/* Awards */
+.awards-strip { display: grid; grid-template-columns: repeat(3, 0.2fr); gap: 0px; margin-left: 0px; }
+.pol-b {margin-top: 50px; margin-left: 250px;}
+.c1 {width: 450px; height: 250px; margin-left: 0px; margin-top: -90px;}
+.e1{width: 450px; height: 250px; margin-left: 40px; margin-top: -90px;}
+.n1{width: 450px; height: 250px; margin-left: 40px; margin-top: -90px;}
+
+
+
+.visit-algarve{color: #642c8a; text-decoration: none; margin-top: -110px;}
+.visit-official{color: #642c8a; text-decoration: none; margin-top: -85px;}
 
 @media (max-width: 1024px) {
   .facilities-grid { grid-template-columns: 1fr 1fr; }
