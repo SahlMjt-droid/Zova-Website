@@ -28,23 +28,21 @@ const JobOpportunitiesPage = () => {
               <img src="happy-child-safe-in-car.jpg" alt="job hero image" className="pic8" />
               <div className="facebook-widget3-overly"> 
       <header className="jobs-hero">
-        <h1 className="jobs-title">JOB OPPORTUNITIES</h1>
-        <p className="jobs-subtitle">Thank you for considering the 24×7 Group as your next employment opportunity.</p>
+        <h1 className="jobs-title">CAREERS</h1>
+        <p className="jobs-subtitle">Join Zova Transport and help deliver reliable, caring Home-to-School and Social Care transport.</p>
       </header>
       </div>
       </div>
 
       <section className="section-pri">
         <div className="page-content">
-          <h2 className="pri-title">We pride ourselves on the quality of our staff.<br/>
-          they are what enable us to provide our excellent service to customers.</h2>
-          <h4 className='pri-subtitle'> • We employ our staff ensuring that they have a contract of employment and agreed terms and conditions.<br/>
-          • Every potential employee is assessed for their suitability and motivational fit for the role, Enhanced Disclosure and Barring Service (DBS) checks are undertaken for all staff, together with full referencing, before any duties commence.<br/>
-          • All 24×7 drivers hold private hire licences, for which satisfactory Enhanced DBS certification and a DVLA Group 2 Medical are mandatory. Most local authorities also require their licence applicants to undertake a successful driving assessment with an Approved Driving Instructor (ADI) before the licence will be issued.
-          • All licensing costs are paid for by the Company.<br/>
-          • All drivers and passenger assistants are provided with tailored, person-centred training that meets the individual needs of their passenger(s).<br/>
-          • All staff members must read and understand our policies and must ensure that they keep themselves updated with the requirements and obligations of their licences.<br/>
-          • 24×7 will for their part guarantee that every colleague is equipped with the tools and the training to deliver an exceptional, best-in-class service.<br/></h4>
+          <h2 className="pri-title">We’re looking for caring, professional people to join our team.</h2>
+          <h4 className='pri-subtitle'> • We employ our staff with clear contracts and agreed terms.<br/>
+          • Enhanced DBS checks and full referencing are completed before duties commence.<br/>
+          • All drivers hold private hire licences and meet medical requirements; many councils also require a driving assessment with an ADI.<br/>
+          • Licensing and essential training costs are supported by the company.<br/>
+          • Drivers and passenger assistants receive tailored, person‑centred training to meet individual passenger needs.<br/>
+          • We ensure every colleague has the tools and training to deliver exceptional service.<br/></h4>
         </div>
       </section>
       
@@ -54,37 +52,20 @@ const JobOpportunitiesPage = () => {
         <div className="job-role1">
         <h1 className='titlel1'>Driver</h1>
         <img src="L1.png" alt="Disability Confident Committed" className="picL1" />
-        <h4 className='subtitle1'>All 24×7 drivers hold private hire licences, for which <br/>
-        satisfactory Enhanced DBS certification and a DVLA <br/>
-        Group 2 Medical are mandatory. Most local <br/>
-        authorities also require their licence applicants to <br/>
-        undertake a successful driving assessment with an 
-        <br/>
-      Approved Driving Instructor (ADI) before the licence<br/>
-       will be issued.</h4>
+        <h4 className='subtitle1'>Drivers hold private hire licences, Enhanced DBS certification and a DVLA Group 2 Medical. Many councils also require a successful driving assessment with an Approved Driving Instructor (ADI).</h4>
             </div>
 
         <div className="job-role1">    
-        <h1 className='titlel2'>Personal Assistant</h1>
+        <h1 className='titlel2'>Passenger Assistant</h1>
         <img src="L2.png" alt="Disability Confident Committed" className="picL2" /> 
-        <h4 className='subtitle2'>All passenger assistants   (escorts)   must receive <br/>
-        satisfactory Enhanced Disclosure and Barring Service <br/>
-         (DBS) certification and are provided with tailored, <br/>
-          person‑centred training that meets the individual <br/>
-          needs of their passenger(s).</h4>
+        <h4 className='subtitle2'>Passenger assistants receive Enhanced DBS certification and tailored, person‑centred training to meet the needs of their passengers.</h4>
         </div>
         
 
         <div className="job-role1">   
-        <h1 className='titlel3'>Office staff</h1>
+        <h1 className='titlel3'>Office & Administration</h1>
         <img src="L3.png" alt="Disability Confident Committed" className="picL3" />
-      <h4 className='subtitle3'> We often have opportunities in support roles at our <br/>
-      HQ, namely in finance, fleet, and general <br/>
-      administration. <br/>
-      Similar positions may also become available within <br/>
-       our regional operations. <br/>
-        Please look at our currently advertised roles for <br/>
-         more information.</h4>
+      <h4 className='subtitle3'> Opportunities are available in support roles across finance, fleet, and general administration at HQ and regional operations. Check current roles for more information.</h4>
           </div> 
             
            
@@ -158,8 +139,8 @@ const JobOpportunitiesPage = () => {
             <div className="footer-column">
               <h3>Our Approach</h3>
               <ul>
-                <li><a href="#charity">Privacy Policy</a></li>
-                <li><a href="#charity">Customer Care Policy</a></li>
+                <li><a href="/privacy-policy">Privacy Policy</a></li>
+                <li><a href="/customer-support">Customer Support</a></li>
                 <li><a href="#charity">CCS Staff Login</a></li>
               </ul>
             </div>

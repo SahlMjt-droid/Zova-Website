@@ -23,7 +23,7 @@ const ApproachPage = () => {
               <div className="facebook-widget2-overly"> 
       <header className="approach-hero">
         <h1 className="approach-title">OUR APPROACH</h1>
-        <p className="approach-subtitle">We value a person-centred approach to the design and delivery of our services. Needs are individual, and are continually and thoroughly assessed for the duration of every contract.</p>
+        <p className="approach-subtitle">We provide consistent, caring, and reliable transport with staff trained to support SEND students, prioritising safety, communication, and student wellbeing.</p>
         
               
       </header>
@@ -32,17 +32,14 @@ const ApproachPage = () => {
 
       <section className="section content-light1">
         <div className="page-content1">
-          <h2 className="section-title1">Consistent environment</h2>
-          <p className="section-text1">Drivers and escorts are allocated a route on a permanent basis, and they meet with students and parents/carers prior to the start of the term. This helps to support the on-going relationship between all stakeholders for the duration of a service contract.</p>
+          <h2 className="section-title1">Consistent Staffing</h2>
+          <p className="section-text1">Drivers and escorts are assigned to specific routes for familiarity and trust. They meet students and parents/carers prior to the start of term to build a supportive relationship.</p>
 
-          <h2 className="section-title1">Customer care</h2>
-          <p className="section-text1">All our staff are aware of the need for first-class customer service, sensitivity, and diplomacy.
-          The safeguarding of children and vulnerable adults and our responsibilities in relation to this remain our highest priorities at all times.</p>
+          <h2 className="section-title1">Specialist Training</h2>
+          <p className="section-text1">Staff are trained in defensive driving, first aid, safeguarding, and supporting SEND students, with training tailored to individual passenger needs.</p>
 
-          <h2 className="section-title1">Consistent care</h2>
-          <p className="section-text1">Sometimes for unavoidable operational reasons, it is necessary to allocate a relief driver to a route.
-In these cases, we take care to introduce relief drivers and escorts to the passengers in advance of the temporary changes.
-This is done in the company of the regular escort and on the familiar territory of the school grounds.</p>
+          <h2 className="section-title1">Safety Standards</h2>
+          <p className="section-text1">Vehicles are maintained to the highest standards and staff undergo enhanced DBS checks. Routes are planned and monitored to minimise journey times.</p>
         
 <img src="pic9.png" alt="Approach content image" className="pic99" />
         </div>
@@ -53,13 +50,13 @@ This is done in the company of the regular escort and on the familiar territory 
       <section className="section content-light">
         <div className="page-content">
           <h2 className="section-title">COMMUNICATION</h2>
-          <p className="section-text">Parents and carers have day-to-day communication with the Company via the driver and escort, and a low-cost telephone number so that parents and carers can contact our management team directly.</p>
+          <p className="section-text">Parents and carers have direct access to drivers and our management team. We keep you informed and respond quickly to changes and enquiries.</p>
 
-          <h2 className="section-title">CODE OF PRACTICE</h2>
-          <p className="section-text">A code of practice for passenger illness in transit forms a part of our safeguarding policy. On occasions, travel arrangements (including passenger numbers and timings) may be subject to change. In such cases, routes are rescheduled, and we will always seek to keep on-vehicle time to a minimum.</p>
+          <h2 className="section-title">RELIABILITY</h2>
+          <p className="section-text">Routes are monitored and adapted to meet school schedules. We aim to minimise on-vehicle time and ensure dependable daily operations.</p>
 
-          <h2 className="section-title">TRAINING</h2>
-          <p className="section-text">Our drivers receive training over and above legal requirements. This training may include instruction in defensive driving techniques, sign language courses for all staff involved with students who have speech difficulties, and awareness courses for autism, ADHD, Asperger and epilepsy, where relevant. All training support is determined by a person-centred consideration of a passenger's individual needs.</p>
+          <h2 className="section-title">STUDENT WELLBEING</h2>
+          <p className="section-text">We foster a supportive and calm travel environment, with care tailored to each student's needs to promote comfort and confidence on every journey.</p>
           <img src="pic10.png" alt="Training content image" className="pic10" />
 
           <div className="content-line4"></div>
@@ -118,21 +115,20 @@ This is done in the company of the regular escort and on the familiar territory 
             <div className="footer-column">
               <h3>Our Approach</h3>
               <ul>
-                <li><a href="#charity">Privacy Policy</a></li>
-                <li><a href="#charity">Customer Care Policy</a></li>
+                <li><a href="/privacy-policy">Privacy Policy</a></li>
+                <li><a href="/customer-support">Customer Support</a></li>
                 <li><a href="#charity">CCS Staff Login</a></li>
               </ul>
             </div>
             
             <div className="footer-column">
-              <h3>24x7 Head Office</h3>
+              <h3>Registered Office</h3>
               <ul>
-                <li>Little Easton Manor</li>
-                <li>Park Road</li>
-                <li>Little Easton</li>
-                <li>CM6 2JN</li>
-                <li>call: 01279 661661</li>
-                <li>email: info@24x7ltd.co.uk</li>
+                <li>Studios, Kiln House</li>
+                <li>Pottergate</li>
+                <li>NR2 1DX</li>
+                <li>call: 01603 381 372</li>
+                <li>email: Info@zovatransport.co.uk</li>
               </ul>
             </div>
             
@@ -158,7 +154,7 @@ This is done in the company of the regular escort and on the familiar territory 
           
           <div className="copyright">
           <div className="content-line3"></div>
-            Copyright 2021-2022 (c) 24x7 Ltd
+            © 2025 Zova Transport – Part of the Zova Group
           </div>
         </div>
       </section>

@@ -6,12 +6,19 @@ import './ContactPage.css';
 const ContactPage = () => {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
   const [submitted, setSubmitted] = useState(false);
+  const [partnerForm, setPartnerForm] = useState({ fullName: '', email: '', company: '', locations: '', phone: '', enquiryType: 'Subcontractor' });
+  const [partnerSubmitted, setPartnerSubmitted] = useState(false);
 
   useEffect(() => { window.scrollTo(0, 0); }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setForm((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handlePartnerChange = (e) => {
+    const { name, value } = e.target;
+    setPartnerForm((prev) => ({ ...prev, [name]: value }));
   };
 
   const scrollToSection = (sectionId) => {
@@ -24,6 +31,11 @@ const ContactPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setSubmitted(true);
+  };
+
+  const handlePartnerSubmit = (e) => {
+    e.preventDefault();
+    setPartnerSubmitted(true);
   };
 
   return (
@@ -48,8 +60,8 @@ const ContactPage = () => {
         </div>
 
         <div className="left">
-            <h3 className="org">24X7 NORFOLK</h3>
-            <p className="note top">For an immediate enquiry please call us on 01603 733900</p>
+            <h3 className="org">Zova Transport</h3>
+            <p className="note top">For an immediate enquiry please call us on 01603 381 372</p>
             <p className="note">Please note that calls may be recorded for training and monitoring purposes.</p>
             </div>
 
@@ -59,7 +71,7 @@ const ContactPage = () => {
             <img src="cll.png" alt="job hero image" className="cllpic" />
               <div>
                 <div className="card3-title">Call Us On</div>
-                <div className="card3-sub">01603 733900</div>
+                <div className="card3-sub">01603 381 372</div>
               </div>
             
 
@@ -67,7 +79,7 @@ const ContactPage = () => {
             <img src="eml.png" alt="job hero image" className="emlpic" />
               <div>
                 <div className="card4-title">Email Us At</div>
-                <div className="card4-sub">norfolk@24x7ltd.co.uk</div>
+                <div className="card4-sub">office@zovatransport.co.uk</div>
               </div>
             </div>
           </div>
@@ -84,6 +96,53 @@ const ContactPage = () => {
         </div>
 
      
+      </section>
+
+      {/* Partner with Us Section */}
+      <section className="contact-details">
+        <div className="contact-strip">
+          <div className="content-linechcon"></div>
+          <h2>PARTNER WITH US</h2>
+        </div>
+
+        <div className="page-content details-grid">
+          <div className="left">
+            <h3 className="org">Zova Transport</h3>
+            <p className="note top">We are growing our school transport services across Norfolk and are seeking reliable, professional operators to partner with us.</p>
+            <h4>Who We Are Looking For</h4>
+            <ul>
+              <li>Licensed private hire or PSV operators in Norwich and surrounding areas</li>
+              <li>Companies or individuals with well-maintained vehicles</li>
+              <li>Experienced drivers and passenger assistants</li>
+              <li>Operators who comply with Norfolk County Council standards and safeguarding requirements</li>
+            </ul>
+            <h4>Benefits of Partnering</h4>
+            <ul>
+              <li>Access to contracted school transport routes</li>
+              <li>Professional operational and administrative support</li>
+              <li>Reliable payments and long-term partnership opportunities</li>
+              <li>Be part of a trusted and growing transport network</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="page-content">
+          <form className="right1" onSubmit={handlePartnerSubmit} style={{ marginTop: 30, marginLeft: 'auto', marginRight: 'auto', width: 650 }}>
+            <input name="fullName" placeholder="Full Name" value={partnerForm.fullName} onChange={handlePartnerChange} required />
+            <input name="email" type="email" placeholder="Email" value={partnerForm.email} onChange={handlePartnerChange} required />
+            <input name="company" placeholder="Company Name" value={partnerForm.company} onChange={handlePartnerChange} />
+            <input name="locations" placeholder="Locations (e.g., Norwich, Cambridge)" value={partnerForm.locations} onChange={handlePartnerChange} />
+            <input name="phone" placeholder="Phone Number" value={partnerForm.phone} onChange={handlePartnerChange} />
+            <select name="enquiryType" value={partnerForm.enquiryType} onChange={handlePartnerChange}>
+              <option value="Subcontractor">Subcontractor Enquiry</option>
+              <option value="Partnership">Partnership Enquiry</option>
+            </select>
+            <div className="actions">
+              <button type="submit" className="send">send</button>
+              {partnerSubmitted && <span className="sent">Thanks — we’ll be in touch.</span>}
+            </div>
+          </form>
+        </div>
       </section>
 
                    {/* Charity/Footer Section */}
@@ -107,21 +166,20 @@ const ContactPage = () => {
             <div className="footer-column">
               <h3>Our Approach</h3>
               <ul>
-                <li><a href="#charity">Privacy Policy</a></li>
-                <li><a href="#charity">Customer Care Policy</a></li>
+                <li><a href="/privacy-policy">Privacy Policy</a></li>
+                <li><a href="/customer-support">Customer Support</a></li>
                 <li><a href="#charity">CCS Staff Login</a></li>
               </ul>
             </div>
             
             <div className="footer-column">
-              <h3>24x7 Head Office</h3>
+              <h3>Registered Office</h3>
               <ul>
-                <li>Little Easton Manor</li>
-                <li>Park Road</li>
-                <li>Little Easton</li>
-                <li>CM6 2JN</li>
-                <li>call: 01279 661661</li>
-                <li>email: info@24x7ltd.co.uk</li>
+                <li>Studios, Kiln House</li>
+                <li>Pottergate</li>
+                <li>NR2 1DX</li>
+                <li>call: 01603 381 372</li>
+                <li>email: Info@zovatransport.co.uk</li>
               </ul>
             </div>
             
@@ -147,7 +205,7 @@ const ContactPage = () => {
           
           <div className="copyright">
           <div className="content-line3"></div>
-            Copyright 2021-2022 (c) 24x7 Ltd
+            © 2025 Zova Transport – Part of the Zova Group
           </div>
         </div>
       </section>

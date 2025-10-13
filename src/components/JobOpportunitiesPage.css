@@ -22,7 +22,9 @@
 
 .jobs-hero { height: 70vh; display:flex; align-items:center; margin-top: -670px; margin-left: 350px; justify-content:center; flex-direction:column; text-align:center; color:#fff; padding:0 24px; background: transparent , url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><defs><filter id="b"><feGaussianBlur stdDeviation="4"/></filter></defs><rect width="1200" height="800" fill="%23ecd8ff"/><circle cx="260" cy="220" r="160" fill="%23bfa0ff" filter="url(%23b)"/><circle cx="900" cy="450" r="210" fill="%2392c1ff" filter="url(%23b)"/></svg>'); background-size:cover; background-position:center; }
 .jobs-title { font-size: 4.9rem; letter-spacing:2.7px; font-weight:770; -webkit-tap-highlight-color:rgba(255, 255, 255, 0.895); }
-.jobs-subtitle { margin-top: 14px; max-width: 900px; line-height: 1.6; font-size: 19px; margin-left: 10px; -webkit-tap-highlight-color:rgba(255, 255, 255, 0.895);}
+.jobs-subtitle { margin-top: 14px; max-width: 900px; line-height: 1.6; font-size: 19px; margin-left: 10px; -webkit-tap-highlight-color:rgba(255, 255, 255, 0.895);} 
+.pri-title{font-size: 30px; color: rgb(100, 44, 138); font-weight: 600; text-transform: uppercase; margin-top: -80px; margin-left: 100px; letter-spacing: 1px;}
+.pri-subtitle{font-size: 17px; color: rgba(49, 52, 55, 0.756); font-weight: 400; line-height: 1.5; margin-left: 100px;}
 
 .section-pri { padding: 90px 0; background-color: #e8e4ed;}
 

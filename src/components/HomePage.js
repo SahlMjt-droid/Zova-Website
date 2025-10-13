@@ -34,19 +34,13 @@ const HomePage = () => {
       {/* Hero Section */}
       <section id="hero" className="hero-section">
         <div className="hero-video" aria-hidden="true">
-          <iframe
-            title="hero-video"
-            src="https://www.youtube.com/embed/4ByZqGEBgJ8?autoplay=1&mute=1&loop=1&playlist=4ByZqGEBgJ8&controls=0&modestbranding=1&rel=0"
-            frameBorder="0"
-            allow="autoplay; fullscreen; encrypted-media"
-            allowFullScreen
-          />
+          <video className="hero-media" src="/home.mp4" autoPlay muted loop playsInline />
         </div>
         <div className="hero-overlay" aria-hidden="true" />
         <div className="hero-content">
-          <h1 className="hero-title">24X7 NORFOLK</h1>
+          <h1 className="hero-title">Safe and Reliable School Transport for Every Student</h1>
           <p className="hero-subtitle">
-            Specialist, contracted transport for schools, young persons with special educational needs, and social care establishments
+            Zova Transport, part of the Zova Group, ensures students travel safely and comfortably to and from school.
           </p>
         </div>
       </section>
@@ -54,19 +48,16 @@ const HomePage = () => {
       {/* Welcome Section */}
       <section id="welcome" className="welcome-section">
         <div className="page-content">
-          <h1 className="page-title">WELCOME TO 24X7 GROUP</h1>
+          <h1 className="page-title">WELCOME TO ZOVA TRANSPORT</h1>
           
           <div className="welcome-content">
             <p className="welcome-aim center-text">
-              Our aim is to ensure that we give the best home to School and Adult social care Transport experience possible.
+              Our mission is to provide the highest quality Home-to-School and Adult Social Care transport services, ensuring a safe, reliable, and caring journey every time.
             </p>
             
             <div className="company-description">
               <p>
-                Our founding directors have many years' experience in passenger transport. Andy Mahoney was awarded his first Home to School contract in 1984 and was awarded an MBE for
-                 services to those with special needs and their families in the new year's honours list 2001. The directors also purchased and established the Centre Algarve which is Mainland Europe's 
-                 only dedicated special needs holiday Centre. The 24x7 Special needs Holiday Trust is the Charity that operates the Centre Algarve. The company operates to high quality standards and
-                  has been awarded a 5 star grading by the Licensed Private Hire Car Association.
+                Our founding team brings decades of experience in passenger transport. With a strong commitment to supporting young people and adults with special educational needs and disabilities (SEND), we operate to the highest standards and are recognised for our professionalism and care.
               </p>
             </div>
           </div>
@@ -211,21 +202,20 @@ const HomePage = () => {
             <div className="footer-column">
               <h3>Our Approach</h3>
               <ul>
-                <li><a href="#charity">Privacy Policy</a></li>
-                <li><a href="#charity">Customer Care Policy</a></li>
+                <li><a href="/privacy-policy">Privacy Policy</a></li>
+                <li><a href="/customer-support">Customer Support</a></li>
                 <li><a href="#charity">CCS Staff Login</a></li>
               </ul>
             </div>
             
             <div className="footer-column">
-              <h3>24x7 Head Office</h3>
+              <h3>Registered Office</h3>
               <ul>
-                <li>Little Easton Manor</li>
-                <li>Park Road</li>
-                <li>Little Easton</li>
-                <li>CM6 2JN</li>
-                <li>call: 01279 661661</li>
-                <li>email: info@24x7ltd.co.uk</li>
+                <li>Studios, Kiln House</li>
+                <li>Pottergate</li>
+                <li>NR2 1DX</li>
+                <li>call: 01603 381 372</li>
+                <li>email: Info@zovatransport.co.uk</li>
               </ul>
             </div>
             
@@ -251,7 +241,7 @@ const HomePage = () => {
           
           <div className="copyright">
           <div className="content-line3"></div>
-            Copyright 2021-2022 (c) 24x7 Ltd
+            © 2025 Zova Transport – Part of the Zova Group
           </div>
         </div>
       </section>
