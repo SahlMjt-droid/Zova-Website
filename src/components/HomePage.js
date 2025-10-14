@@ -33,8 +33,10 @@ const HomePage = () => {
 
       {/* Hero Section */}
       <section id="hero" className="hero-section">
-        <div className="hero-video" aria-hidden="true">
-          <video className="hero-media" src="/home.mp4" autoPlay muted loop playsInline />
+        <div className="hero-video">
+          <video autoPlay muted loop playsInline>
+            <source src="/home.mp4" type="video/mp4" className="hero-media" />
+          </video>
         </div>
         <div className="hero-overlay" aria-hidden="true" />
         <div className="hero-content">

@@ -20,7 +20,7 @@
   margin-top: -10px !important;
 }
 
-.jobs-hero { height: 70vh; display:flex; align-items:center; margin-top: -670px; margin-left: 350px; justify-content:center; flex-direction:column; text-align:center; color:#fff; padding:0 24px; background: transparent , url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><defs><filter id="b"><feGaussianBlur stdDeviation="4"/></filter></defs><rect width="1200" height="800" fill="%23ecd8ff"/><circle cx="260" cy="220" r="160" fill="%23bfa0ff" filter="url(%23b)"/><circle cx="900" cy="450" r="210" fill="%2392c1ff" filter="url(%23b)"/></svg>'); background-size:cover; background-position:center; }
+.jobs-hero { height: 70vh; display:flex; align-items:center; margin-top: -500px; margin-left: 230px; justify-content:center; flex-direction:column; text-align:center; color:#fff; padding:0 24px; background: transparent , url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><defs><filter id="b"><feGaussianBlur stdDeviation="4"/></filter></defs><rect width="1200" height="800" fill="%23ecd8ff"/><circle cx="260" cy="220" r="160" fill="%23bfa0ff" filter="url(%23b)"/><circle cx="900" cy="450" r="210" fill="%2392c1ff" filter="url(%23b)"/></svg>'); background-size:cover; background-position:center; }
 .jobs-title { font-size: 4.9rem; letter-spacing:2.7px; font-weight:770; -webkit-tap-highlight-color:rgba(255, 255, 255, 0.895); }
 .jobs-subtitle { margin-top: 14px; max-width: 900px; line-height: 1.6; font-size: 19px; margin-left: 10px; -webkit-tap-highlight-color:rgba(255, 255, 255, 0.895);} 
 .pri-title{font-size: 30px; color: rgb(100, 44, 138); font-weight: 600; text-transform: uppercase; margin-top: -80px; margin-left: 100px; letter-spacing: 1px;}
@@ -33,7 +33,7 @@
 
 
 .section { padding: 10px 0 !important;; }
-.content-light { background: #fff; margin-left: 15px;}
+.content-light { background: #fff; margin-left: 0px;}
 .band { background: #eee2f6; }
 
 .job-roles { display:grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-top: 20px; }
@@ -71,8 +71,8 @@
 .job-card {border-radius: 1px !important;}
 .band-heading { text-align:center; color:#7B3F9F; font-size: 1.6rem; letter-spacing:1px; font-weight:800; }
 .iconpic {width: 75px; height: 70px; margin-top: -190px; margin-left: 160px; margin-bottom:110px;}
-.job-card-text{margin-top: 40px; text-align: left; margin-left: -10px; align-items: left;}
-.job-card-title {font-size: 18px; color: #7B3F9F; margin-top: 110px; margin-bottom: 60px; margin-left: 150px;}
+.job-card-text{margin-top: 40px; text-align: left; margin-left: -10px; align-items: left; }
+.job-card-title {font-size: 18px; color: #7B3F9F; margin-top: 110px; margin-bottom: 60px; margin-left: 100px;}
 
 
 .charity-section1{background-color: #e8e4ed;

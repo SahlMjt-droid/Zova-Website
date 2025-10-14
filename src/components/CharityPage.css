@@ -31,7 +31,8 @@
 .charity-widget3-overly{
   position: absolute !important;
   z-index: 2 !important;
-  margin-top: -10px !important;
+  margin-top: 90px !important;
+  margin-left: -90px;
 }
 .charity-hero-title { font-size: 4.7rem; letter-spacing: 2px; font-weight: 750; margin-top: -140px; margin-left: 430px; -webkit-tap-highlight-color:rgb(255, 255, 255); }
 .charity-hero-sub { max-width: 700px; margin-top: 40px; line-height: 1.6; font-size: 1.17rem; font-weight: 400; margin-left:  -630px !important; -webkit-tap-highlight-color:rgb(255, 255, 255);   }
@@ -39,13 +40,13 @@
 
 /* Intro */
 .section{padding: 110px 0 !important;}
-.content-light2{padding: 90px 0;}
+.content-light2{padding: 90px 0; margin-left: -100px !important;}
 .charity-intro { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 40px; align-items: start; }
 .intro-heading { color: #7B3F9F; font-weight: 400; font-family: Georgia, 'Times New Roman', Times, serif; margin-bottom: 16px; font-size: 1.3rem; font-style: italic; margin-left: 90px;}
 .charity-intro p { color: #7d8285; line-height: 1.7; letter-spacing: normal; margin-bottom: 12px; margin-left: 90px; max-width: 870px; }
 .intro-images { display: flex; flex-direction: column; gap: 20px; }
-.piccent{margin-top: -110px; margin-left: 240px; margin-bottom: 50px;}
-.intro-images  { border-radius: 10px; width: 410px; height: 50px; background-size: cover; background-position: center; box-shadow: 0 6px 16px rgba(0,0,0,0.1); margin-top: 90px; margin-bottom: 50px; margin-left: -260px;}
+.piccent{margin-top: -110px; margin-left: 290px; margin-bottom: 50px;}
+.intro-images  { border-radius: 10px; width: 410px; height: 50px; background-size: cover; background-position: center; box-shadow: 0 6px 16px rgba(0,0,0,0.1); margin-top: 90px; margin-bottom: 50px; margin-left: -290px;}
 .content-linech {
   height: 0.5px !important;
   width: 1450px;
@@ -61,7 +62,7 @@
 
 
 /* Facilities */
-.band-titlef{margin-top: -120px; font-size: 35px; font-weight: 700; max-width: 500px; text-align: center; margin-left: 500px; color: #642c8a;}
+.band-titlef{margin-top: -120px; font-size: 35px; font-weight: 700; max-width: 500px; text-align: center; margin-left: 430px; color: #642c8a;}
 .facilities-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; margin-top: 36px; }
 .charity-card { background: #fff;  padding: 24px; margin-left: 40px; }
 .fi1{margin-top: -80px; width: 38px; height: 48px; margin-left: -40px;}
@@ -75,12 +76,12 @@
 
 .content-linech2 {
   height: 0.5px !important;
-  width: 1450px;
+  min-width: 1450px;
   background-color: #ccc;
   margin-bottom: 0px !important;
   font-weight: 700 !important;
   margin-top: -40px;
-  margin-left: 30px;
+  margin-left: -30px;
   color: #ccc;
 }
 .content-linech3 {
@@ -95,11 +96,11 @@
 }
 
 /* Awards */
-.awards-strip { display: grid; grid-template-columns: repeat(3, 0.2fr); gap: 0px; margin-left: 0px; }
-.pol-b {margin-top: 50px; margin-left: 250px;}
-.c1 {width: 450px; height: 250px; margin-left: 0px; margin-top: -90px;}
-.e1{width: 450px; height: 250px; margin-left: 40px; margin-top: -90px;}
-.n1{width: 450px; height: 250px; margin-left: 40px; margin-top: -90px;}
+.awards-strip { display: grid; grid-template-columns: repeat(3, 0.2fr); gap: 50px; margin-left: 290px !important; }
+.pol-b {margin-top: 50px; margin-left: 200px;}
+.c1 {min-width: 390px; height: 250px; margin-left: 0px; margin-top: -90px;}
+.e1{min-width: 390px; height: 250px; margin-left: 80px; margin-top: -90px;}
+.n1{min-width: 390px; height: 250px; margin-left: 40px; margin-top: -90px;}
 
 
 
@@ -121,3 +122,21 @@
 }
 
 
+/* Charity page overflow and alignment fixes (scoped) */
+.charity-page { overflow-x: hidden; }
+
+/* Ensure hero image does not exceed viewport width */
+.charity-widget3 img { width: 100% !important; height: auto !important; margin-left: 0 !important; }
+
+/* Prevent decorative lines and banners from causing horizontal scroll */
+.content-linech,
+.content-linech2,
+.content-linech3 { width: 100% !important; max-width: 1200px; margin-left: 0 !important; }
+
+/* Keep award strip within viewport */
+.awards-strip { margin-left: 0 !important; overflow: hidden; }
+.e1,
+.n1 { margin-left: 0 !important; }
+
+/* Make intro images fit their column */
+.intro-images img { max-width: 100%; height: auto; display: block; }
